@@ -408,11 +408,25 @@ h1 {
 .company__image img {
   position: absolute;
   top: 50%;
-  right: -60px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: auto;
   height: 100%;
+}
+
+.company__image::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(34, 40, 168);
+  background: -webkit-gradient(linear, left top, right top, color-stop(17%, rgb(34, 40, 168)), color-stop(60%, rgb(39, 97, 199)));
+  background: linear-gradient(90deg, rgb(34, 40, 168) 17%, rgb(39, 97, 199) 60%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  opacity: 0.4;
 }
 
 .company__content {
@@ -458,8 +472,8 @@ h2 {
 }
 
 .advantages .container {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .advantages__box {
@@ -468,7 +482,7 @@ h2 {
   -ms-grid-columns: 1fr 30px 1fr 30px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 30px;
-  grid-row-gap: 50px;
+  grid-row-gap: 60px;
 }
 
 .advantages__block {
@@ -476,7 +490,7 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 26px;
   color: #626374;
 }
 .advantages__block .icon {
@@ -511,8 +525,8 @@ h2 {
   text-transform: uppercase;
 }
 .products .container {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .products__box {
@@ -749,4 +763,13 @@ h2 {
   line-height: 16px;
   color: #00043a;
   position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+  section {
+    display: none;
+  }
 }
