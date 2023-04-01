@@ -48,6 +48,7 @@ ul, ol {
 
 .container {
   max-width: 1230px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -55,7 +56,7 @@ ul, ol {
 .btn {
   font-family: "Oswald", sans-serif;
   padding: 16px 54px;
-  background: #2d7aff;
+  background: #08b38e;
   border: 0;
   text-transform: uppercase;
   font-weight: 400;
@@ -70,9 +71,9 @@ ul, ol {
 .btn:hover {
   -webkit-transform: translate(-1px, -1px);
           transform: translate(-1px, -1px);
-  background: #4287ff;
-  -webkit-box-shadow: 1px 1px 1px rgb(16, 43, 90);
-          box-shadow: 1px 1px 1px rgb(16, 43, 90);
+  background: #08c79e;
+  -webkit-box-shadow: 1px 1px 1px #004F3E;
+          box-shadow: 1px 1px 1px #004F3E;
 }
 
 .btn:active {
@@ -125,14 +126,15 @@ ul, ol {
   position: fixed;
 }
 .header.fixed .header__wrap {
-  background: rgb(34, 40, 168);
-  background: -webkit-gradient(linear, left top, right top, color-stop(17%, rgb(34, 40, 168)), color-stop(60%, rgb(39, 97, 199)));
-  background: linear-gradient(90deg, rgb(34, 40, 168) 17%, rgb(39, 97, 199) 60%);
+  background: rgb(0, 81, 85);
+  background: -webkit-gradient(linear, left top, right top, color-stop(17%, rgb(0, 81, 85)), color-stop(60%, rgb(8, 179, 142)));
+  background: linear-gradient(90deg, rgb(0, 81, 85) 17%, rgb(8, 179, 142) 60%);
   padding: 10px 0;
 }
 
 .header__wrap {
   max-width: 1400px;
+  width: 100%;
   margin: auto;
   padding: 16px 0;
   border-radius: 20px;
@@ -198,7 +200,7 @@ ul, ol {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  background: #73AAFD;
+  background: #00ffc8;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   border-radius: 3px;
@@ -225,13 +227,13 @@ ul, ol {
   font-weight: 500;
   font-size: 18px;
   line-height: 18px;
-  color: #2228A8;
+  color: #00503F;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
 .header__phone:hover {
-  color: #2761C7;
+  color: #08A584;
 }
 
 .header__soc {
@@ -285,9 +287,9 @@ ul, ol {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgb(34, 40, 168);
-  background: -webkit-gradient(linear, left top, right top, color-stop(17%, rgb(12, 20, 163)), color-stop(60%, rgb(39, 97, 199)));
-  background: linear-gradient(90deg, rgb(12, 20, 163) 17%, rgb(39, 97, 199) 60%);
+  background: rgb(0, 81, 85);
+  background: -webkit-gradient(linear, left top, right top, color-stop(17%, rgb(0, 81, 85)), color-stop(60%, rgb(8, 179, 142)));
+  background: linear-gradient(90deg, rgb(0, 81, 85) 17%, rgb(8, 179, 142) 60%);
   opacity: 0.9;
 }
 
@@ -419,9 +421,9 @@ h1 {
   content: "";
   width: 100%;
   height: 100%;
-  background: rgb(34, 40, 168);
-  background: -webkit-gradient(linear, left top, right top, color-stop(17%, rgb(34, 40, 168)), color-stop(60%, rgb(39, 97, 199)));
-  background: linear-gradient(90deg, rgb(34, 40, 168) 17%, rgb(39, 97, 199) 60%);
+  background: rgb(0, 81, 85);
+  background: -webkit-gradient(linear, left top, right top, color-stop(17%, rgb(0, 81, 85)), color-stop(60%, rgb(8, 179, 142)));
+  background: linear-gradient(90deg, rgb(0, 81, 85) 17%, rgb(8, 179, 142) 60%);
   position: absolute;
   top: 0;
   left: 0;
@@ -466,7 +468,7 @@ h1 {
 h2 {
   font-size: 44px;
   line-height: 55px;
-  color: #00043f;
+  color: #004133;
   margin-bottom: 60px;
   text-transform: uppercase;
 }
@@ -506,7 +508,7 @@ h2 {
   min-width: 90px;
   width: 90px;
   height: 90px;
-  border: 2px solid #000872;
+  border: 2px solid #004133;
   border-radius: 50%;
   margin-right: 24px;
 }
@@ -515,7 +517,7 @@ h2 {
   font-size: 20px;
   line-height: 23px;
   margin-bottom: 12px;
-  color: #00054b;
+  color: #004133;
 }
 
 .products {
@@ -560,6 +562,7 @@ h2 {
   line-height: 24px;
   color: #00043a;
   text-transform: uppercase;
+  padding: 10px;
 }
 .products__block .image {
   width: 100%;
@@ -624,9 +627,9 @@ h2 {
   z-index: 2;
 }
 .products__block:nth-child(2) .title {
-  background: rgb(34, 40, 168);
-  background: -webkit-gradient(linear, left top, right top, color-stop(17%, rgb(34, 40, 168)), color-stop(60%, rgb(39, 97, 199)));
-  background: linear-gradient(90deg, rgb(34, 40, 168) 17%, rgb(39, 97, 199) 60%);
+  background: rgb(0, 81, 85);
+  background: -webkit-gradient(linear, left top, right top, color-stop(17%, rgb(0, 81, 85)), color-stop(60%, rgb(8, 179, 142)));
+  background: linear-gradient(90deg, rgb(0, 81, 85) 17%, rgb(8, 179, 142) 60%);
   color: #fff;
 }
 
@@ -664,10 +667,10 @@ h2 {
   content: "";
   width: 100%;
   height: 100%;
-  background: rgb(34, 40, 168);
-  background: -webkit-gradient(linear, left top, right top, color-stop(17%, rgb(12, 20, 163)), color-stop(60%, rgb(39, 97, 199)));
-  background: linear-gradient(90deg, rgb(12, 20, 163) 17%, rgb(39, 97, 199) 60%);
-  opacity: 0.7;
+  background: rgb(0, 81, 85);
+  background: -webkit-gradient(linear, left top, right top, color-stop(17%, rgb(0, 81, 85)), color-stop(60%, rgb(8, 179, 142)));
+  background: linear-gradient(90deg, rgb(0, 81, 85) 17%, rgb(8, 179, 142) 60%);
+  opacity: 0.8;
   position: absolute;
   top: 0;
   left: 0;
@@ -694,7 +697,7 @@ h2 {
   display: inline-block;
   font-weight: 700;
   font-size: 40px;
-  color: #00043a;
+  color: #004133;
   text-transform: uppercase;
   margin-bottom: 32px;
 }
@@ -724,7 +727,7 @@ h2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
-  color: #00043a;
+  color: #004133;
   position: relative;
 }
 .footer__navbar a::after {
@@ -736,7 +739,7 @@ h2 {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  background: #73AAFD;
+  background: #00ffc8;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   border-radius: 3px;
@@ -760,7 +763,7 @@ h2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
-  color: #00043a;
+  color: #004133;
   position: relative;
 }
 
@@ -770,5 +773,241 @@ h2 {
   }
   section {
     display: none;
+  }
+  .banner {
+    display: block;
+  }
+  .banner__bot {
+    bottom: 100px;
+    right: auto;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .header__navbar {
+    display: none;
+  }
+  .banner__content {
+    padding-top: 260px;
+    padding-bottom: 650px;
+  }
+  .company {
+    display: block;
+  }
+  .company__image {
+    min-height: 500px;
+    max-width: 100%;
+    position: relative;
+    top: auto;
+    margin-bottom: 60px;
+  }
+  .company__content {
+    max-width: 100%;
+  }
+  .company .container {
+    max-width: 768px;
+    padding: 100px 15px 100px;
+  }
+  .advantages {
+    display: block;
+  }
+  .advantages .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .advantages__box {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .bottomBtn {
+    display: block;
+  }
+  .products {
+    display: block;
+  }
+  .products__box {
+    grid-gap: 0px;
+  }
+  .products__block .image {
+    height: 200px;
+  }
+  .products__block .btn_wrap {
+    padding: 0 15px;
+    bottom: 20px;
+  }
+  .products__block .btn {
+    font-size: 20px;
+    width: 100%;
+    padding: 12px 24px;
+  }
+  .footer__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    padding-top: 70px;
+  }
+  .footer__logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+  }
+  .footer__left {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .footer__right {
+    margin-bottom: 40px;
+  }
+  .footer__navbar {
+    margin-bottom: 16px;
+  }
+  .footer__navbar ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer__navbar li {
+    margin-bottom: 16px;
+  }
+  .footer__bottom {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 766px) {
+  .header {
+    padding: 6px;
+  }
+  .header__phone {
+    display: none;
+  }
+  .banner__content {
+    padding-top: 150px;
+    padding-bottom: 460px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  h1 {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
+  .btn {
+    padding: 10px 40px;
+    font-size: 15px;
+    line-height: 16px;
+  }
+  .banner__bot .bot {
+    width: 300px;
+  }
+  .banner__bot::after {
+    width: 70px;
+    height: 40px;
+  }
+  .company .container {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .company__image {
+    min-height: 300px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  .company__content {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .company__content p {
+    margin-bottom: 24px;
+  }
+  .company__content ul li {
+    font-size: 16px;
+  }
+  .advantages .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .advantages__box {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-row-gap: 24px;
+  }
+  .advantages__block .icon {
+    min-width: 60px;
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+  }
+  .advantages__block {
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .advantages__block h5 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 8px;
+  }
+  .products .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .bottomBtn h2 {
+    margin-bottom: 24px;
+  }
+  .btn2 {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .footer .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .products__box {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .products__block {
+    border-radius: 0;
+    margin-bottom: 24px;
+  }
+  .products__block:last-child {
+    margin-bottom: 0;
+  }
+  .products__block:nth-child(2) {
+    -webkit-transform: translate(0) scale(1);
+            transform: translate(0) scale(1);
+  }
+  .products__block .content {
+    min-height: auto;
+  }
+  .products__block .image {
+    height: 260px;
+  }
+  .products__block .image img {
+    height: 120%;
+  }
+  .products__block .title {
+    min-height: 50px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .products__block .btn {
+    font-size: 15px;
+    padding: 10px 40px;
+  }
+  .header__logo {
+    width: 100px;
+    height: 40px;
+    font-size: 42px;
+    line-height: 44px;
   }
 }
